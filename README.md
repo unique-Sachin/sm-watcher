@@ -12,7 +12,6 @@ It works same as nodemon but I have removed unwanted consoles that occurs in nod
 ### 2 Run "npm install" in your terminal.
 ### 3 Run "npm link" to make your commmand executable anywhere in your system.
 ### 4 Now run "npm start" to start your server.
-### Hurray! Enjoy your work hassle free
 
 ### NOTE:- At this moment npm start will work only for index.js file, and if you want to change file just goto package.json file and replace filename in "start":"sm-watch index.js" to your updated filename and keep other command as it is.
 
