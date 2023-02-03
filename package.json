@@ -1,29 +1,15 @@
 {
-  "name": "sm-watch",
+  "name": "sm-watching",
   "version": "1.0.0",
   "main": "./index.js",
   "license": "MIT",
   "bin": "./index.js",
+  "scripts": {
+    "start": "sm-watching index.js"
+  },
   "dependencies": {
     "chalk": "^5.2.0",
     "chokidar": "^3.5.3"
   },
-  "type": "module",
-  "scripts": {
-    "start": "sm-watch server.js"
-  },
-  "description": "sm-watch is command-line tool that helps with the speedy development of Node. js applications.",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/unique-Sachin/sm-watch.git"
-  },
-  "keywords": [
-    "sm"
-  ],
-  "author": "unique-sachin",
-  "bugs": {
-    "url": "https://github.com/unique-Sachin/sm-watch/issues"
-  },
-  "homepage": "https://github.com/unique-Sachin/sm-watch#readme"
+  "type": "module"
 }
