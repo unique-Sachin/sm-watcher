@@ -6,8 +6,7 @@
   "bin": "./index.js",
   "dependencies": {
     "chalk": "^5.2.0",
-    "chokidar": "^3.5.3",
-    "express": "^4.18.2"
+    "chokidar": "^3.5.3"
   },
   "type": "module",
   "scripts": {
