@@ -9,5 +9,5 @@ Well its very easy I have provided the steps.
 ### 1 First clone this repository
 ### 2 Run "npm install" in your terminal.
 ### 3 Run "npm link" to make your commmand executable anywhere in your file.
-### 4 Now run "sm-watch <filename>" to start your server.
+### 4 Now run "sachin-watching <filename>" to start your server.
 ### Hurray! Enjoy your work hassle free
