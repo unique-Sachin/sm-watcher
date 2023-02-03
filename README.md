@@ -8,6 +8,6 @@ It works same as nodemon but I have removed unwanted consoles that occurs in nod
 Well its very easy I have provided the steps.
 ### 1 First clone this repository
 ### 2 Run "npm install" in your terminal.
-### 3 Run "npm link" to make your commmand executable anywhere in your file.
+### 3 Run "npm link" to make your commmand executable anywhere in your system.
 ### 4 Now run "sm-watch filename.js" to start your server.
 ### Hurray! Enjoy your work hassle free
