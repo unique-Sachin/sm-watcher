@@ -8,5 +8,8 @@
     "chalk": "^5.2.0",
     "chokidar": "^3.5.3"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "start": "sm-watcher index.js"
+  }
 }
