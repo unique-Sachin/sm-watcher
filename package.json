@@ -1,12 +1,9 @@
 {
-  "name": "sm-watch",
+  "name": "sm-watcher",
   "version": "1.0.0",
   "main": "./index.js",
   "license": "MIT",
   "bin": "./index.js",
-  "scripts": {
-    "start": "sm-watch index.js"
-  },
   "dependencies": {
     "chalk": "^5.2.0",
     "chokidar": "^3.5.3"
