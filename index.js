@@ -17,6 +17,17 @@ function restartChildProcess() {
   child = fork("./" + file);
 }
 
+function mydebounce(func, delay) {
+  let timer;
+  return function (...args) {
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(() => {
+      func();
+    }, delay);
+  };
+}
+const debounce = mydebounce(restartChildProcess, 2000);
+
 watcher.on("all", () => {
-  restartChildProcess();
+  debounce();
 });
