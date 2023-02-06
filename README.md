@@ -10,7 +10,7 @@ It works same as nodemon but I have removed unwanted consoles that occurs in nod
 ## Well there are two ways to use this, its very easy I have provided the steps.
 
 ## First way if you want to start your server on index.js file only or any fixed file.
-### 1 First clone this repository
+### 1 First fork and then clone this repository ( you can also clone only but after forking you can merge new changes in future)
 ### 2 Run "npm install" in your terminal.
 ### 3 Run "npm link" to make your commmand executable anywhere in your system.
 ### 4 Now run "npm start" to start your server.
