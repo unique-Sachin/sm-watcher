@@ -1,35 +1,20 @@
 # sm-watcher
-repo link: https://github.com/unique-Sachin/sm-watcher
-<br>
-sm-watcher is  command-line tool that helps with the speedy development of Node. js applications. 
-It monitors your project directory and automatically restarts your node application when it detects any changes. 
+
+sm-watcher is command-line tool that helps with the speedy development of Node. js applications.
+It monitors your project directory and automatically restarts your node application when it detects any changes.
 This means that you do not have to stop and restart your applications in order for your changes to take effect.
 It works same as nodemon but I have removed unwanted consoles that occurs in nodemon.
 
 ## How to use this?
-## Well there are two ways to use this, its very easy I have provided the steps.
 
-## First way if you want to start your server on index.js file only or any fixed file.
-### 1 First fork and then clone this repository ( you can also clone only but after forking you can merge new changes in future)
-### 2 Run "npm install" in your terminal.
-### 3 Run "npm link" to make your commmand executable anywhere in your system.
-### 4 Now run "npm start" to start your server.
+### 1. Install the module first (npm i sm-watcher).
 
-### NOTE:- At this moment npm start will work only for index.js file, and if you want to change file just goto package.json file and replace filename in "start":"sm-watcher index.js" to your updated filename and keep other command as it is.
+### 2. Go to package.json file.
 
+### 3. add "scripts": {"start": "sm-watcher index.js"} in package.json file.
 
-## Second way is more dynamic and customizable, here you can set your command and start your server on any file as you want.
+### 4. run "npm start" and enjoy your work hassel free.
 
-### Run sm-watcher filename.js to run the same command here you can type any filename that you want to run.
+## If you do not want to install every time there is another way to setup only once in your system and free for always. All the steps you can find in readme file of repo of this module on github.
 
-### What if you want your custom command to run the server instead of "sm-watcher"?
-### For example :-> if you want to run the server with your name command like "hanumat filename.js"
-### Or if you want to run the server with the command like "express filename.js",
-### Or if you want to run the server with the command like "any-custom-name filename.js",
-### Here simply you can go to package.json and update the "name":"sm-watchering" with your customized new name like hanumat,express,any-name etc. After That just do "npm link" again and everything is done.
-### Now you can start the server by your new and updated command ! like "hanumat filename.js"
-### Hurray! Enjoy your work hassle free with your NEWLY CUSTOMIZED COMMAND.
-
-
-
-
+### repo link: https://github.com/unique-Sachin/sm-watcher
